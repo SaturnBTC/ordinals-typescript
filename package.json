@@ -1,0 +1,18 @@
+{
+  "name": "@saturn/ordinals-lib",
+  "version": "0.0.8",
+  "scripts": {
+    "build": "wasm-pack build --target nodejs --scope saturn --no-pack"
+  },
+  "files": [
+    "pkg/ordinals_lib_bg.wasm",
+    "pkg/ordinals_lib_bg.wasm.d.ts",
+    "pkg/ordinals_lib.d.ts",
+    "pkg/ordinals_lib.js"
+  ],
+  "main": "pkg/ordinals_lib.js",
+  "types": "pkg/ordinals_lib.d.ts",
+  "devDependencies": {
+    "wasm-pack": "^0.12.1"
+  }
+}

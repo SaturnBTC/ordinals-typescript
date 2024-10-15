@@ -1,5 +1,5 @@
 {
-  "name": "@saturn/ordinals-lib",
+  "name": "@saturnbtcio/ordinals-lib",
   "version": "0.0.8",
   "scripts": {
     "build": "wasm-pack build --target nodejs --scope saturn --no-pack"
